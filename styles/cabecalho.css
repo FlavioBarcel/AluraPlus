@@ -1,0 +1,54 @@
+.cabecalho{
+    background-image: url(..//img/Background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.cabecalho__conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 512px;
+    padding-top: 5rem;
+    margin-left: 3rem;
+    
+}
+
+.cabecaho__conteudo__titulo{
+    font-size: 1.75rem;
+    font-weight:700 ;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.cabecalho__conteudo__combo{
+    width: 348px;
+    padding-bottom: 2rem;
+}
+
+.cabecaho__conteudo__botao{
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: var(--fundo-azul);
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+}
+
+.cabecaho__conteudo__botao2{
+    border: 1px solid white;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+}
+
+.cabecalho__conteudo__preco{
+    font-size: 0.75rem;
+    font-weight: 400;
+}
